@@ -1,0 +1,70 @@
+{
+    "title":"test1",
+    "description":"created in the testing",
+    "type":"form",
+    "questions":
+       [
+           {"questionContent":"What is your role ?",
+            "responses":[
+                {"responseContent":"To develop backend..."
+                 
+                }
+            ]
+           
+           }
+           
+       ]
+    
+}
+
+
+
+
+
+
+questions:{
+    type:[
+      {
+        questionContent:{type:String},
+        responses:{
+          type:[
+            {
+              responseContent:{type:String,
+                userId: {
+                  type: mongoose.Schema.Types.ObjectId,
+                  ref: "User",
+                  required: true,
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+
+
+ 
+ lookup query ...
+
+
+
+ 63e49b6978959671387ae7f5   form of Sanket
+ 
+ if it does not work , will need to learn populate in mongodb
+
+ 63e6405a3564da5e03f830c0 qid
+ 63e6405a3564da5e03f830bf fi
+ 
+how will the question id be generated with the q on the fe ?
+
+
+
+63f21fa66fcb264b4c8d461d
+
+q1 63f21fa66fcb264b4c8d461e
+q2 63f21fa66fcb264b4c8d461f
+q3 63f21fa66fcb264b4c8d4620
+
+
